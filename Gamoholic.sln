@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gamoholic.DesktopApp", "Gam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gamoholic.Common", "Gamoholic.Common\Gamoholic.Common.csproj", "{6BD8647D-6918-4092-952C-0E2CE580E535}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gameoholic.Tester", "Gameoholic.Tester\Gameoholic.Tester.csproj", "{426499C1-8103-4FC4-A923-8E15BE285B3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6BD8647D-6918-4092-952C-0E2CE580E535}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BD8647D-6918-4092-952C-0E2CE580E535}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BD8647D-6918-4092-952C-0E2CE580E535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{426499C1-8103-4FC4-A923-8E15BE285B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{426499C1-8103-4FC4-A923-8E15BE285B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{426499C1-8103-4FC4-A923-8E15BE285B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{426499C1-8103-4FC4-A923-8E15BE285B3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
