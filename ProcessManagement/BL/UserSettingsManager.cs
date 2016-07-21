@@ -48,6 +48,12 @@ namespace ProcessManagement.BL
             return null;
         }
 
+        public IEnumerable<ProcessSettingsItem> GetAllHazardousProcessesForCurrentUser()
+        {
+            var currentUserSettings = GetCurrentUserSettings();
+            return currentUserSettings.MyHazardouesProcessesList.Where(x => x.MyIsHazardous != null && x.MyIsHazardous == true);
+        }
+
         public void UpdateProcess(ProcessSettingsItem process)
         {
             var currentUserSettings = GetCurrentUserSettings();
